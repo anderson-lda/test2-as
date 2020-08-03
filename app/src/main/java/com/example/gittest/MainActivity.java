@@ -22,16 +22,10 @@ public class MainActivity extends AppCompatActivity {
         botaoUm.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getApplicationContext(),"Este é o botão 1",Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(),"Qualquer coisa",Toast.LENGTH_SHORT).show();
             }
         });
 
-        botaoDois.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Toast.makeText(getApplicationContext(),"Este é o botão 2",Toast.LENGTH_SHORT).show();
-            }
-        });
     }
 
 }
